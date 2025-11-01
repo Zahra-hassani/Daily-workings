@@ -1,0 +1,56 @@
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+h1{
+  text-align: center;
+  font-weight: 800;
+  /*animation: fadedown 3s 1 linear;*/
+  transform: translateY(70%);
+  opacity: 0;
+}
+@keyframes fadedown{
+  0%{
+    scale: 0;
+    opacity: 0
+  }
+  50%{
+    opacity: 1;
+    scale: 2;
+  }
+  100%{
+    scale: 0
+  }
+}
+.progress{
+  height: 14px;
+  width: 50%;
+  background-color: purple;
+  border: 5px solid;
+  border-color: mediumseagreen;
+  border-radius: 20px;
+  position: absolute;
+  top: 14px;
+  right: 6px;
+}
+#progress{
+  background-color: yellowgreen;
+  border-radius: 20px;
+  width: 0%;
+  transition: 0.2s linear;
+  height: 100%;
+}
+#btn{
+  padding: 8px 40px;
+  background-color: gold;
+  font-size: 20px;
+  font-weight: bolder;
+  color: goldenrod;
+  margin: 10px 30px;
+  text-shadow: 1px 1px 0 gray;
+  border: 0;
+  box-shadow: 0 1px 0 gray;
+  border-radius: 10px;
+}
