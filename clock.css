@@ -1,0 +1,53 @@
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1px;
+  color: white;
+  font-size: 45px;
+  font-weight: bolder;
+  text-align: center;
+  background-color: black;
+  padding: 6px 12px;
+  box-shadow: 0 0 12px white,0 0 12px white,0 0 12px white,0 0 12px white;
+  border-radius: 10px;
+}
+h2>span{
+  translate: 0 4px;
+  animation: bounce 2s infinite linear alternate;
+}
+h2>span.d{
+  translate: 0 4px;
+  animation: bounce 2s infinite linear alternate;
+  animation-delay: 0.5s;
+}
+@keyframes bounce{
+  0%{
+    translate: 0 4px;
+  }
+  100%{
+    translate: 0 -4px;
+  }
+}
+h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  color: darkorange;
+  font-size: 40px;
+  font-weight: bolder;
+  text-align: center;
+  margin: 30px 12px;
+  background-color: black;
+  padding: 40px;
+  box-shadow: 0 0 12px white,0 0 12px white,0 0 12px white,0 0 12px white;
+  border-radius: 10px;
+}
+
