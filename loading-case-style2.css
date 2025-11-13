@@ -1,0 +1,44 @@
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  font-size: 30px;
+}
+
+
+.a,.b,.c{
+  background-color: black;
+  transform: translateY(3px);
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  animation: bg 1s infinite linear alternate;
+}
+.b{
+  animation: bg 1s infinite linear alternate;
+  animation-delay: .2s
+}
+.c{
+  animation: bg 1s infinite linear alternate;
+  animation-delay: .4s
+}
+@keyframes bg{
+  0%{
+    background-color: black;
+  }
+  100%{
+    background-color: gray;
+  }
+}
+
