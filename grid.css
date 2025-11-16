@@ -1,0 +1,33 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+h1{
+  text-align: center;
+  font-family: cursive;
+  color: transparent;
+  font-size: 40px;
+  background-clip: text;
+  background-image: linear-gradient(lightblue, blue, purple,pink,lightblue);
+}
+.parent{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 4px
+}
+.child{
+  height: 100%;
+  width: 100%;;
+  border-radius: 8px;
+  box-shadow: 0 0 2px black;
+}
+.child img{
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+}
+
+
