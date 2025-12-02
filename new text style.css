@@ -1,0 +1,48 @@
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+h1{
+  font-weight: bolder;
+  text-align: center;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 3px;
+  background-color: white;
+  overflow: hidden;
+  height: fit-content;
+  width: 50%;
+}
+.letter{
+  animation: top 2s infinite alternate;
+  translate: 0 0;
+}
+.l{
+  animation: down 2s infinite alternate;
+  
+}
+@keyframes down{
+  0%{
+    translate: 0 -40px;
+  }
+  100%{
+    translate: 0 0;
+  transition: 3s linear
+  }
+}
+@keyframes top{
+  0%{
+    translate: 0 40px;
+  }
+  100%{
+    translate:0 0;
+  transition: 3s linear
+  }
+}
