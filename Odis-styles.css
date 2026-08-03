@@ -1,0 +1,47 @@
+:root{
+  --color-brand: darkcyan;
+  --color-p: grey;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h1{
+  font-weight: 350;
+  font-family: "Oswald";
+  text-transform: uppercase;
+  color: var(--color-brand);
+  text-align: center;
+  font-size: 22px;
+  padding: 14px;
+}
+p{
+  text-align: center;
+  font-size: 16px;
+  color: var(--color-p);
+  padding: 9px;
+}
+.parent{
+  width: 100%;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+.child{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+img{
+  width: 100%;
+  border-radius: 12px;
+  height: 300px;
+}
+
