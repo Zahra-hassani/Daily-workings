@@ -8,7 +8,42 @@
   margin: 0;
   box-sizing: border-box;
 }
+nav{
+  width: 100%;
+  padding: 8px 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  color: var(--color-brand);
+  background-color: whitesmoke;
+  border: 1px solid gainsboro;
+  position: sticky;
+  top:0;
+  left: 0;
+}
+.heading::after{
+  content: '';
+  background-color: var(--color-brand);
+  width: 30px;
+  height: 3px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  translate: -50% 0;
+}
+.heading::before{
+  content: '';
+  background-color: var(--color-brand);
+  width: 80px;
+  height: 1px;
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  translate: -50% 0;
+}
 h1{
+  position: relative;
   font-weight: 350;
   font-family: "Oswald";
   text-transform: uppercase;
