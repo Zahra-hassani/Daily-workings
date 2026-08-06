@@ -79,4 +79,56 @@ img{
   border-radius: 12px;
   height: 300px;
 }
+.footer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 14px;
+  background-color: whitesmoke;
+  border-radius: 20px;
+}
+h2{
+  font-weight: 350;
+  font-family: "Oswald";
+  text-transform: uppercase;
+  color: var(--color-brand);
+  text-align: center;
+  font-size: 22px;
+  padding: 12px 0;
+}
+.contact{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+}
+.pages{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6px;
+}
+.brands{
+  padding: 10px;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+}
+.f{
+  background-color: #1877F2;
+}
+.t{
+  background-color: #1DA1F2;
+}
+.g{
+  background-color:#DC4E41;
+}
+.d{
+  background-color: #EA4C89;
+}
+.in{
+  background-color: #0A66C2;
+}
 
