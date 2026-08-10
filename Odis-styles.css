@@ -20,9 +20,19 @@ nav{
   color: var(--color-brand);
   background-color: var(--bg-white);
   border-bottom: 1px solid gainsboro;
+  z-index: 888;
   position: sticky;
   top:0;
   left: 0;
+}
+.bg{
+  height: 30vh;
+  width: 100%;
+  background-color: darkcyan;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -60;
 }
 #theme{
   border: 0;
@@ -185,4 +195,47 @@ h2{
   justify-content: center;
   align-items: center;
 }
+.team::after{
+  bottom: 30%;
+  left: 10%;
+  background-color: transparent
+}
+.team::before{
+  bottom: 30%;
+  left: 10%;
+  background-color: transparent
+}
+.team-p{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: var(--bg-white);
+  gap: 30px;
+}
+.team-p .member{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1px;
+  width: 100%;
+}
+.member img{
+  width: 100%;
+  height: 350px;
+  border-radius: 12px;
+}
+.member p::first-child{
+  font-weight: 300;
+}
+.member p{
+  text-align: left;
+}
+
+  
+
+  
 
